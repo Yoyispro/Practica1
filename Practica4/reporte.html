@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body>
+
+  <form action="" method="get">
+    <fieldset>
+
+      <legend>Detalles de la foto</legend>
+
+
+      Titulo : <br>
+      <input type="text">
+      <br> <br>
+
+      Descripcion
+
+      <br>
+      <textarea name="" id="" cols="80" rows="10"></textarea>
+      <br>
+      <br>
+
+      <div style="display:flex;">
+        <div style="flex:1;">
+
+          Continente
+          <br>
+          <select name="Continente" id="Continente">
+            <option value="Escoger continente">Escoger continente</option>
+            <option value="Africa">Afriica</option>
+            <option value="Asia">Asia</option>
+            <option value="Europa">Europa</option>
+            <option value=" Norte America">Norte America</option>
+            <option value="Sur America"> Sur America</option>
+          </select>
+
+          <br>
+          <br>
+          Pais
+          <br>
+          <select name="Pais" id="Pais">
+            <option value="Pais">Pais</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">México</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+          </select>
+          <br> <br>
+          Ciudad
+          <br>
+          <label>
+            <input list="browsers" name="myBrowser" /></label>
+          <datalist id="browsers">
+            <option value="Calgary">
+            <option value="Montreal">
+            <option value="Toronto">
+            <option value="Vancouver">
+            <option value="Tlaxcala">
+          </datalist>
+
+
+          <br> <br>
+
+          Acepto la licencia de Software <input type="checkbox" name="info" id="">
+          <br> <br>
+
+          Califica esta foto:
+          <br>
+
+          <input type="number" name="Calificacion" id="Calificacion" cols="1" rows="1">
+          <br> <br>
+
+          Coleccion de Color:
+          <br>
+          <input type="color" name="" id="">
+          <br> <br>
+          <input type="submit" value="Enviar"> <input type="submit" value="limpiar">
+
+        </div>
+        <div style="flex:1;">
+
+          Copyrigth?
+          <br />
+          <input type='radio' name='Derechos' value='Derechos'> Todos los derechos reservados<br />
+          <input type='radio' name='Dere' value='Dere'> Creative Commons<br />
+
+          <br />
+          Licencias Creative Commons<br />
+          <input type='checkbox' name='atribucion' value='atribucion'> Atribución<br />
+          <input type='checkbox' name='nocomercial' value='nocomercial'> No comercial<br />
+          <input type='checkbox' name='trabajo' value='trabajo'> No hay trabajos derivados<br />
+          <input type='checkbox' name='compartir' value='compartir'> Compartir por igual<br />
+          <br />
+          Fecha de toma: <br /><input type="date" name="" id=""> <br>
+          <br />
+          Hora de toma:
+          <br /><input type="time"> <br />
+        </div>
+
+
+
+
+
+
+
+
+    </fieldset>
+
+  </form>
+
+
+</body>
+
+</html>
